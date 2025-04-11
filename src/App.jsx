@@ -175,7 +175,7 @@ function App() {
     //update the map to the new bounds gotten from umbrella coordinates so that all umbrellas
     //show up on map
     map.current.fitBounds(getBounds(coordinates), {
-      padding: { top: 30, bottom: 30, left: 30, right: 30 },
+      padding: { top: 50, bottom: 50, left: 50, right: 50 },
       duration: 500,
     });
     //save the umbrella markers for later deletion
