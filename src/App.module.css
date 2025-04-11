@@ -1,0 +1,37 @@
+/* container section */
+.appContainer {
+  height: 100dvh;
+  width: 100vw;
+  overflow: hidden;
+}
+.mapContainer {
+  height: 100dvh;
+  width: 100vw;
+}
+.marker {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.5s ease-out;
+}
+.dotMarker {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+}
+/* reset button */
+.resetButton {
+  position: absolute;
+  left: 50%;
+  top: 7%;
+  border-radius: 50% 50%;
+  padding: 10px 10px;
+  transform: translateX(-50%);
+  background-color: #214a4f;
+  box-shadow: 0 0 1px 1px gray;
+  z-index: 1;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
